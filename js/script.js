@@ -28,12 +28,12 @@ function render(){
 
     
   });
-  deletebtn = document.createElement("button")
-  deletebtn.innerText = "Abgabe"
-  document.getElementById("tasks").appendChild(deletebtn);
+  let donebtn = document.createElement("button")
+  donebtn.innerText = "Abgabe"
+  document.getElementById("tasks").appendChild(donebtn);
 
-  deletebtn.classList.add("todotask");
-  deletebtn.addEventListener('click', function() {
+  donebtn.classList.add("todotask");
+  donebtn.addEventListener('click', function() {
 
     
     taskarray.splice(i, 1)
