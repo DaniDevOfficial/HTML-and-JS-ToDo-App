@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo</title>
+    <link rel="Icon" href="./img/Light/icon_Light.png">
+    <link rel="Stylesheet" href="./css/both.css">
+
+    <script defer src="./js/script.js"></script>
+    <script defer src="./js/css.js"></script>
+
+</head>
+
+<body>
+    <h1 id="maintitle">NotDone <div id="theme">Light-Theme</div></h1><br>
+    <div id="tasks">
+        <div class="todotask" onclick="editor(event)">Neue Task  </div> 
+    </div>
+
+    <div id="enter">
+        <input type="text" id="entrytext" placeholder="Neue Task..." onkeydown="enterkey()" value="">
+    </div>
+
+
+</body>
+
+</html>
