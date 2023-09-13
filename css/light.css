@@ -1,0 +1,44 @@
+
+body {
+    background-image: url('../img/Light/Background_Light.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+#maintitle{
+    background-image: url('../img/Light/Background_TItle_Light.png');
+    color: #0F1529;
+}
+#tasks{
+    background-image: url('../img/Light/Background_TasksAndInput_Light.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-left: 10px;
+    margin-right: 10%;
+    margin-left: 10%;
+}  
+
+#enter{
+    background-image: url('../img/Light/Background_TasksAndInput_Light.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-left: 10px;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 3%;
+    
+}
+#entry{
+
+}
+.todotask{
+
+    background-image: url('../img/Light/Background_SingleTask_Light.png');
+
+}
+
+#theme{
+    font-size: large;
+    text-align: right;
+    margin-right: 10%;
+}
